@@ -10,8 +10,8 @@ function preload(){
 
 function setup() {
   // put setup code here
-  createCanvas(1200, 700, WEBGL);
-  frameRate(5);
+  createCanvas(window.innerWidth, window.innerHeight, WEBGL);
+  frameRate(24);
 }
 function draw() {
 directionalLight(200, 20, 200, -200);
