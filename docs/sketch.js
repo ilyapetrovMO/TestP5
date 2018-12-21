@@ -46,10 +46,10 @@ function earth(){
   plane(5000, 5000);
   pop();
 
-  push();
-  translate(0, 300, -5000);
-  plane(5000,5000);
-  pop();
+  //push();
+  //translate(0, 300, -5000);
+  //plane(5000,5000);
+  //pop();
 }
 
 function palm() {
